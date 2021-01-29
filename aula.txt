@@ -3,7 +3,14 @@ cd pasta/pasta/pasta (navega ate o diretorio alvo)
 Git rm —cached arquivo.formato (volta um arquivo do repo para o working directory)
 git init = o git comeca a monitorar o diretorio
 git restore arquivo.formato (volta o arquivo da staging area, para a working directory, modificando o working directory para a versao da staging area)
-git commit = tira o arquivo da staging area para o local repo, aqui ja fazendo uma linha de tempo
+git commit = tira o arquivo da staging area para o local repo, aqui ja fazendo uma linha de tempo (limpa a staging area)
+git config --get user.name = mostra os usuarios para assinatura do projeto a ser comitado
+git config --get user.email = mostra o usuario para assinatura do projeto a ser comitado
+git config user.name "nome" = nome da assinatura para o commit
+git config user.mail "email" = email da assinatura para o commit
+apertar q para sair do git show
+git log --all  = mostra todos os commmits de um determinado projeto, podendo o codigo do commit e usa-lo para voltar para a versao em questao do codigo
+    head = momento da linha do tempo que estou, corrente
 
 working directory =  o arquivo que estou trabalhando no momento, que estou vendo, editando
 staging area = atraves do comando "git add" eu adiciono o arquivo para o proprio git, em uma sala de espera, aguardando mudancas ou nao do working directory
