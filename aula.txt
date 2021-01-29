@@ -1,0 +1,12 @@
+ls -la (lista todos os arquivos em determinada pasta, ate os ocultos, somente ls mostra sem detalhes)
+cd pasta/pasta/pasta (navega ate o diretorio alvo)
+Git rm —cached arquivo.formato (volta um arquivo do repo para o working directory)
+git init = o git comeca a monitorar o diretorio
+git restore arquivo.formato (volta o arquivo da staging area, para a working directory, modificando o working directory para a versao da staging area)
+git commit = tira o arquivo da staging area para o local repo, aqui ja fazendo uma linha de tempo
+
+working directory =  o arquivo que estou trabalhando no momento, que estou vendo, editando
+staging area = atraves do comando "git add" eu adiciono o arquivo para o proprio git, em uma sala de espera, aguardando mudancas ou nao do working directory
+(o git recebeu uma copia do arquivo em questao, que pode comparar com o arquivo, no working directory, que voce posteriormente alterar)
+local repo = atraves do comando "git commit", aquele arquivo e mandado para o "aviao" e nao sao mais permitidas mudancas
+
