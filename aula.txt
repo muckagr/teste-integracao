@@ -10,7 +10,10 @@ git config user.name "nome" = nome da assinatura para o commit
 git config user.mail "email" = email da assinatura para o commit
 apertar q para sair do git show
 git log --all  = mostra todos os commmits de um determinado projeto, podendo o codigo do commit e usa-lo para voltar para a versao em questao do codigo
-    head = momento da linha do tempo que estou, corrente
+    head = momento da linha do tempo que estou, corrente (ponteiro para onde estou)
+    git checkout -b codigo = volta para um determinado commit, e as modificacoes a partir de la, feitas anteriormente, nao sao usadas
+git  log --oneline --graph = mostra os commits em linha
+
 
 working directory =  o arquivo que estou trabalhando no momento, que estou vendo, editando
 staging area = atraves do comando "git add" eu adiciono o arquivo para o proprio git, em uma sala de espera, aguardando mudancas ou nao do working directory
